@@ -4,14 +4,15 @@ import ShoppingNav from "../../components/ShoppingNav";
 import Grid from "@material-ui/core/Grid";
 import "./style.css";
 import ReactDOM from "react-dom";
-
 const PayPalButton = window.paypal.Buttons.driver("react", { React, ReactDOM });
+
 
 export default function Cart() {
   const [order, setOrder] = useState({
     itemArray: [],
     individualItemCost: "",
     totalCost: "",
+    
   });
 
   useEffect(() => {
@@ -132,10 +133,13 @@ export default function Cart() {
             xs={12}
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <PayPalButton
+            {setTimeout(() => {
+              <PayPalButton
               createOrder={(data, actions) => createOrder(data, actions)}
               onApprove={(data, actions) => onApprove(data, actions)}
             />
+            }, 1000)}
+            
           </Grid>
         </Grid>
         <Grid sm={4}>
