@@ -1,9 +1,7 @@
 .App {
   text-align: center;
 }
-.BackGroundPat{
-  background-image: url("./background.jpg");
-}
+
 
 .App-logo {
   height: 40vmin;
