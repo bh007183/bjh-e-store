@@ -17,6 +17,7 @@ import {
 import {Context} from "./pages/context"
 import Product from "./pages/individualproduct/product";
 import Cart from "./pages/cart"
+import background from "./background.jpg"
 
 import About from "./pages/about";
 
@@ -30,7 +31,7 @@ function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className="Background"maxWidth="xl" style={{padding: "0px"}}>
+      <Container style={{backgroundImage={background}}} maxWidth="xl" style={{padding: "0px"}}>
         <Context.Provider value={memo}>
     <Router>
      <Switch>
