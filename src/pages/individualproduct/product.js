@@ -31,6 +31,7 @@ export default function Product() {
     order.push(obj)
       
     localStorage.setItem(`item`, JSON.stringify(order))
+    window.location.href = "/cart"
           
       }
      

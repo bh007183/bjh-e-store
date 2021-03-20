@@ -144,7 +144,7 @@ export default function Cart() {
           </Grid>
         </Grid>
         <Grid sm={4}>
-          <p>This is practice site so any orders placed will not be created. Also do not enter you information into paypal! </p>
+          <h1 style={{color: "red"}}>This is practice site so any orders placed will not be created. Also do not enter you information into paypal! </h1>
         </Grid>
       </Grid>
     </div>
