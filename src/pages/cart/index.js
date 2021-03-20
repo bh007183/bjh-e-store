@@ -20,7 +20,8 @@ export default function Cart() {
     let adder = 0;
     let individual = [];
     for (let i = 0; i < order.length; i++) {
-      adder += parseFloat((order[i].totalCost).toFixed(2));
+      adder += parseFloat(order[i].totalCost);
+      // adder += parseFloat((order[i].totalCost).toFixed(2));
       individual.push(order[i].totalCost);
     }
     setOrder({
@@ -37,7 +38,7 @@ export default function Cart() {
     let adder = 0;
     let individual = [];
     for (let i = 0; i < order.length; i++) {
-      adder += parseFloat((order[i].totalCost).toFixed(2));
+      adder += parseFloat(order[i].totalCost);
       individual.push(order[i].totalCost);
     }
     setOrder({
@@ -58,7 +59,7 @@ export default function Cart() {
     let adder = 0;
     let individual = [];
     for (let i = 0; i < order.length; i++) {
-      adder += parseFloat((order[i].totalCost).toFixed(2));
+      adder += parseFloat(order[i].totalCost);
       individual.push(order[i].totalCost);
     }
     setOrder({
