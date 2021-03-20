@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.className{
+  background-image: url("./background.jpg");
+}
 
 .App-logo {
   height: 40vmin;

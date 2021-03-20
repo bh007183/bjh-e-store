@@ -31,7 +31,7 @@ function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container style={{backgroundImage={background}}} maxWidth="xl" style={{padding: "0px"}}>
+      <Container className="BackGroundPat" maxWidth="xl" style={{padding: "0px"}}>
         <Context.Provider value={memo}>
     <Router>
      <Switch>
