@@ -134,12 +134,12 @@ export default function Cart() {
             xs={12}
             style={{ display: "flex", justifyContent: "center" }}
           >
-            {setTimeout(() => {
+           
               <PayPalButton
               createOrder={(data, actions) => createOrder(data, actions)}
               onApprove={(data, actions) => onApprove(data, actions)}
             />
-            }, 1000)}
+           
             
           </Grid>
         </Grid>
