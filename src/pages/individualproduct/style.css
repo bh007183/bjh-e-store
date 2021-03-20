@@ -1,0 +1,43 @@
+.productImage {
+    width: 100%;
+    object-fit: contain;
+   
+}
+.imgContain{
+    object-fit: contain;
+}
+
+.backdrop{
+    background-color: white;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.itemTitle{
+    margin-top: 0%;
+}
+.addToCartButton{
+    width: 100%;
+    background-color: #f8f8ff;
+    padding: 15px, 1%, 2%, 15px;
+    transition:  0.2s;
+    border: hidden
+}
+.addToCartButton:hover{
+    transform: scale(1.1)
+}
+.addToCartButton:active{
+    background-color: rgb(197, 172, 221);
+}
+.checkoutCard{
+    margin-top: 0px;
+    width: 100%;
+    background-color: white;
+}
+.descriptionpadding{
+    text-align: center;
+}
+

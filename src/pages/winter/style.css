@@ -1,0 +1,97 @@
+
+.MuiCard-root{
+    height: 30vw;
+}
+.product-image {
+  height: 25vw;
+    object-fit: contain;
+    width: unset;
+    aspect-ratio: 800 / 600; 
+  }
+
+  .triangleContainTop{
+      position: relative;  
+  }
+
+  .triangleText{
+      text-align: center;
+      margin-bottom: 80%;
+      margin-top: 2%;
+  }
+  
+  .triangleText2{
+    text-align: center;
+        margin-top: 80%;
+        margin-bottom: 2%;
+  }
+  
+  .triangle1 {
+    color: white;
+      position: absolute;
+      top: 0;
+      left: 17vw;
+    background-position: bottom;
+    background-size: cover;
+    width: 30vw; 
+    height: 30vw;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-image:url(skiing.jpg);
+    font-weight: 700;
+    font-size: larger;
+    
+}
+  .triangle2 {
+    position: absolute;
+    top: 0;
+    left: 35.1vw;
+    background-position: bottom;
+    background-size: cover;
+    width: 30vw; 
+    height: 30vw;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-image:url(hiking.jpg);
+    color:  rgb(37, 36, 36);
+    font-weight: 700;
+    font-size: larger;
+    
+}
+.triangle3 {
+    
+    position: absolute;
+    top: 0;
+    left: 53vw;
+    background-position: center;
+    background-size: cover;
+    width: 30vw; 
+    height: 30vw;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-image:url(rafting.jpg);
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    
+}
+.triangle4 {
+    
+    position: absolute;
+    top: 33vw;
+    left: 35vw;
+    background-position: top;
+    background-size: cover;
+    width: 30vw; 
+    height: 30vw;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background-image:url(biking.jpg);
+    color:  rgb(37, 36, 36);
+    font-weight: 700;
+    font-size: larger;
+}
+
+
+.hover:hover{
+    transform: scale(1.1);
+  }
+  
+  .hover{
+    transition:  0.2s; 
+  }

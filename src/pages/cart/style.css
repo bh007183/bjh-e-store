@@ -1,0 +1,14 @@
+.productcard{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity{
+    width: 50%
+}
+
+.Paypall{
+    width:100%;
+    background-color: yellowgreen;
+}
