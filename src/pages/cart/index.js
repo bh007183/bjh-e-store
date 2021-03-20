@@ -114,6 +114,7 @@ export default function Cart() {
                     className="quantity"
                     onChange={handleInputChange}
                     defaultValue={product.quantity}
+                    style={{width: "30px"}}
                   ></input>
                 </Grid>
                 <Grid item xs={1}>
