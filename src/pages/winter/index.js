@@ -15,7 +15,7 @@ export default function Winter() {
   const {individualProduct, setIndividualProduct} = useContext(Context)
 
   const individualItem = (event) => {
-    axios.get("https://bj-outdoor-estore-back.herokuapp.com/api/products/item/" + event.target.attributes[0].value)
+    axios.get("https://e-store-test.herokuapp.com/api/products/item/" + event.target.attributes[0].value)
     .then(res => setIndividualProduct({product: res.data}))
     
     .catch(err => alert(err))
@@ -26,7 +26,7 @@ export default function Winter() {
   })
 
   useEffect(() => {
-  axios.get("https://bj-outdoor-estore-back.herokuapp.com/api/featured")
+  axios.get("https://e-store-test.herokuapp.com/api/featured")
   .then(res => setFeatured({...featured, featuredItem: res.data}))
   .catch(err => alert(err))
    

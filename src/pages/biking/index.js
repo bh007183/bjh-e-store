@@ -30,7 +30,7 @@ export default function Bikes(props) {
 
   const individualItem = (event) => {
  
-    axios.get("http://localhost:8080/api/products/item/" + event.target.attributes[0].value)
+    axios.get("https://e-store-test.herokuapp.com/api/products/item/" + event.target.attributes[0].value)
     .then(res => setIndividualProduct({product: res.data}))
     
     .catch(err => alert(err))
@@ -48,7 +48,7 @@ export default function Bikes(props) {
   useEffect(() => {
     let subCatArray = [];
     axios
-      .get(`http://localhost:8080/api/products/${category}`)
+      .get(`https://e-store-test.herokuapp.com/api/products/${category}`)
       .then((res) => {
         for (let i = 0; i < res.data.length; i++) {
           subCatArray.push(res.data[i].subCategory);
@@ -60,7 +60,7 @@ export default function Bikes(props) {
   }, []);
 
  const onSubCatClick = (event) => {
-    axios.get(`http://localhost:8080/api/products/subCat/${event.target.attributes[0].value}`)
+    axios.get(`https://e-store-test.herokuapp.com/api/products/subCat/${event.target.attributes[0].value}`)
     .then((res) => 
       setBikes({ ...bikes, bikeArray: res.data,})
     )
@@ -70,7 +70,7 @@ export default function Bikes(props) {
 const onAllSubCatClick = () => {
     let subCatArray = [];
     axios
-      .get(`http://localhost:8080/api/products/${category}`)
+      .get(`https://e-store-test.herokuapp.com/api/products/${category}`)
       .then((res) => {
         for (let i = 0; i < res.data.length; i++) {
           subCatArray.push(res.data[i].subCategory);
