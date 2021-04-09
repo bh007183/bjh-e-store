@@ -30,15 +30,11 @@
 
   * [Contact](#questions/contact)
 
-  ## Installation
-
-  To Install necessary dependencies, run the following command:
-  
-  N/A
+ 
 
   ## Usage
 
-      Same as you would use other E-stores.
+      This site is demonstrated from the customers perspective. As such, a customer would interact with this site like any other site.
   
   ## Technologies
 
