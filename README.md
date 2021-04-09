@@ -13,7 +13,7 @@
 
   ## Description
 
-  A practice E-store site with nice design. As far as E-stores go its simple but I enjoyed trying to make it look nice.
+  A practice E-store site with nice design. As far as E-stores go its simple but I enjoyed trying to make it look nice. It is Mobile responsive.
 
   ## Images
 
@@ -30,19 +30,15 @@
 
   * [Contact](#questions/contact)
 
-  ## Installation
-
-  To Install necessary dependencies, run the following command:
-  
-  N/A
+ 
 
   ## Usage
 
-      Same as you would use other E-stores.
+  This site is demonstrated from the customers perspective. As such, a customer would interact with this site like any other site.
   
   ## Technologies
 
-      ReactJS with material-UI as framework, CSS, MySql, and  Axios.
+      ReactJS with material-UI as framework, CSS, MySql, and Axios.
 
   ## Contributors
 
