@@ -34,7 +34,7 @@
 
   ## Usage
 
-      This site is demonstrated from the customers perspective. As such, a customer would interact with this site like any other site.
+  This site is demonstrated from the customers perspective. As such, a customer would interact with this site like any other site.
   
   ## Technologies
 
